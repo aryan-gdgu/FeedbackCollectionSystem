@@ -15,6 +15,11 @@ A full-stack web application to collect, manage, and monitor user feedback with 
 
 ---
 
+
+## 🔗 Live Demo
+[Click here to open the app on Render](https://feedbackcollectionsystem-9mh8.onrender.com)
+
+
 ## 🧱 Tech Stack
 
 | Layer | Technology |
@@ -105,4 +110,4 @@ Made by [Aditya Singh] — feel free to connect!
 - GitHub: [@aditya-8787](https://github.com/aditya-8787)
 - LinkedIn: [Aditya Singh](https://www.linkedin.com/in/aditya8787/)
 
-🔄 Deployment in Progress: The live version of this project is currently being finalized and will be available soon.
+
