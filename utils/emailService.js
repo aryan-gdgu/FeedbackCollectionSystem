@@ -4,8 +4,8 @@ const config = require("../config");
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: config.email.user,
-    pass: config.email.pass,
+    user: config.EMAIL_USER,
+    pass: config.EMAIL_PASS,
   },
 });
 
@@ -13,8 +13,8 @@ const transporter = nodemailer.createTransport({
 //feedback email send kro
 const sendFeedbackEmail = (feedback) => {
   const mailOptions = {
-    from: config.email.user,
-    to: config.email.admin,
+    from: config.EMAIL_USER,
+    to: config.EMAIL_ADMIN,
     subject: `New Feedback: ${feedback.subject}`,
     html: `
             <h2>New Feedback Received</h2>
