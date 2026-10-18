@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 const sendFeedbackEmail = (feedback) => {
   const mailOptions = {
     from: config.EMAIL_USER,
-    to: config.EMAIL_ADMIN,
+    to: "aryanchoudharyc17@gmail.com",
     subject: `New Feedback: ${feedback.subject}`,
     html: `
             <h2>New Feedback Received</h2>
